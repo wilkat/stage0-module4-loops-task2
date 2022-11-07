@@ -7,6 +7,7 @@ public class FactorialNumbers {
         while (i<=printToInclusive) {
             fact = fact*i;
             System.out.println(fact);
+            i++;
         }
     }
 }
