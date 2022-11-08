@@ -9,13 +9,17 @@ public class PrimeNumbers {
             while (j <= i) {
                 if(i%j == 0) {
                     count++;
-                    j++;
+
                 }
-                i++;
+                j++;
             }
-            if(count <= 2) {
+
+            if(count == 2) {
                 System.out.println(i);
             }
+            j = 1;
+            i++;
+            count = 0;
         }
     }
 }
